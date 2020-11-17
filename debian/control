@@ -1,0 +1,18 @@
+Source: cardbackup
+Section: utils
+Priority: optional
+Maintainer: Vincent Peugnet <v.peugnet@free.fr>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Vcs-Git: https://github.com/vincent-peugnet/cardbackup.git
+Vcs-browser: https://github.com/vincent-peugnet/cardbackup
+Homepage: https://github.com/vincent-peugnet/cardbackup
+
+Package: cardbackup
+Architecture: all
+Multi-Arch: foreign
+Depends: rsync, mediainfo, ffmpeg, tree, texlive
+Description: bash script to help organi<z>e backup for audio/video memory cards
+ Card BackUp is the only good thing that came up in 2020.
+ It's an experiment: to have an open source and linux software to manage backup
+ for audiovisual projects.

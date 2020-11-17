@@ -1,0 +1,2 @@
+version=4
+https://github.com/vincent-peugnet/cardbackup/releases .*/cardbackup-(\d\S+)\.tar\.gz
